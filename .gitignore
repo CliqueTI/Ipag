@@ -1,0 +1,23 @@
+_docker
+composer.lock
+docker-compose.yml
+Dockerfile
+
+##### Windows
+# Windows thumbnail cache files
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+
+##### Linux
+*~
+
+##### MacOS
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+
+##### IDE
+.idea

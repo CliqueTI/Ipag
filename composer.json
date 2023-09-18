@@ -1,0 +1,26 @@
+{
+  "name": "cliqueti/ipag",
+  "description": "SDK não oficial IPAG",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Paulo",
+      "email": "paulo@cliqueti.com.br",
+      "homepage": "https://www.cliqueti.com.br"
+    }
+  ],
+  "require": {
+    "php": "^7.4",
+    "ext-json": "*",
+    "ext-curl": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "CliqueTI\\Ipag\\": "src"
+    },
+    "files": [
+      "src/Etc/Helpers.php"
+    ]
+  }
+}
