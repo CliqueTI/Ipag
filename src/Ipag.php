@@ -22,7 +22,7 @@ abstract class Ipag {
         return new Transaction($apiId, $apiKey, $url);
     }
 
-    public static function callback(string $private_key, string $content) {
+    public static function callback(?string $private_key, ?string $content) {
         return new Callback($private_key, $content);
     }
 
